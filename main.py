@@ -58,7 +58,7 @@ model_input_dict = {'Yes': 1, 'No': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '
 model_list = [model_input_dict[str(y)] if str(y) in model_input_dict else y for y in input_variables]
 
 # Importing model and preparing dataframe for it
-model = joblib.load('final_model_2.joblib')  # Assuming this is the correct model
+model = joblib.load('final_model.joblib')  # Assuming this is the correct model
 # Create a list of your desired column names
 columns = [
     'Age (in Years)', 'Weight (in Kg)', 'Height (in Cm / Feet)', 
