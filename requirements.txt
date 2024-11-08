@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+pycaret
+scikit-learn
+# Add other dependencies your app needs
